@@ -1,0 +1,441 @@
+Last login: Mon Oct 16 13:54:54 on ttys004
+(base) ipsayadav@Ipsas-MBP-2 ~ % cd /Users/ipsayadav/Desktop/emory/BMI_500_Lectures_PDFs/HW/oct_11/DEID-2023/python
+(base) ipsayadav@Ipsas-MBP-2 python %  python stats.py id.deid id-phi.phrase phone.phi
+
+
+==========================
+
+Num of true positives = 40
+
+Num of false positives = 1
+
+Num of false negatives = 1739
+
+Sensitivity/Recall = 0.022
+
+PPV/Specificity = 0.967
+
+==========================
+
+
+Total events in 'id-phi.phrase': 1779
+========================================
+Categories Present:
+Location
+DateYear
+Date
+HCPName
+PTName
+RelativeProxyName
+Phone
+Other
+PTNameInitial
+Age
+========================================
+
+
+
+
+
+
+Examining "Location" category.
+
+
+==========================
+
+Num of true positives = 1
+
+Num of false positives = 16
+
+Num of false negatives = 366
+
+Sensitivity/Recall = 0.003
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "DateYear" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 16
+
+Num of false negatives = 46
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "Date" category.
+
+
+==========================
+
+Num of true positives = 1
+
+Num of false positives = 16
+
+Num of false negatives = 481
+
+Sensitivity/Recall = 0.002
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "HCPName" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 16
+
+Num of false negatives = 593
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "PTName" category.
+
+
+==========================
+
+Num of true positives = 1
+
+Num of false positives = 15
+
+Num of false negatives = 53
+
+Sensitivity/Recall = 0.019
+
+PPV/Specificity = 0.5
+
+==========================
+
+
+Examining "RelativeProxyName" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 16
+
+Num of false negatives = 175
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "Phone" category.
+
+
+==========================
+
+Num of true positives = 37
+
+Num of false positives = 1
+
+Num of false negatives = 16
+
+Sensitivity/Recall = 0.698
+
+PPV/Specificity = 0.967
+
+==========================
+
+
+Examining "Other" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 16
+
+Num of false negatives = 3
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "PTNameInitial" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 16
+
+Num of false negatives = 2
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+Examining "Age" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 16
+
+Num of false negatives = 4
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.467
+
+==========================
+
+
+(base) ipsayadav@Ipsas-MBP-2 python % cd /Users/ipsayadav/Desktop/emory/BMI_500_Lectures_PDFs/HW/oct_11/DEID-2023/python             
+(base) ipsayadav@Ipsas-MBP-2 python % python YADAV_deid.py id.text names.phi
+(base) ipsayadav@Ipsas-MBP-2 python %  python stats.py id.deid id-phi.phrase names.phi
+
+
+==========================
+
+Num of true positives = 277
+
+Num of false positives = 1206
+
+Num of false negatives = 1502
+
+Sensitivity/Recall = 0.156
+
+PPV/Specificity = 0.924
+
+==========================
+
+
+Total events in 'id-phi.phrase': 1779
+========================================
+Categories Present:
+Location
+DateYear
+Date
+HCPName
+PTName
+RelativeProxyName
+Phone
+Other
+PTNameInitial
+Age
+========================================
+
+
+
+
+
+
+Examining "Location" category.
+
+
+==========================
+
+Num of true positives = 72
+
+Num of false positives = 1228
+
+Num of false negatives = 295
+
+Sensitivity/Recall = 0.196
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "DateYear" category.
+
+
+==========================
+
+Num of true positives = 5
+
+Num of false positives = 1232
+
+Num of false negatives = 41
+
+Sensitivity/Recall = 0.109
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "Date" category.
+
+
+==========================
+
+Num of true positives = 87
+
+Num of false positives = 1218
+
+Num of false negatives = 395
+
+Sensitivity/Recall = 0.18
+
+PPV/Specificity = 0.923
+
+==========================
+
+
+Examining "HCPName" category.
+
+
+==========================
+
+Num of true positives = 58
+
+Num of false positives = 1231
+
+Num of false negatives = 535
+
+Sensitivity/Recall = 0.098
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "PTName" category.
+
+
+==========================
+
+Num of true positives = 10
+
+Num of false positives = 1229
+
+Num of false negatives = 44
+
+Sensitivity/Recall = 0.185
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "RelativeProxyName" category.
+
+
+==========================
+
+Num of true positives = 27
+
+Num of false positives = 1232
+
+Num of false negatives = 148
+
+Sensitivity/Recall = 0.154
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "Phone" category.
+
+
+==========================
+
+Num of true positives = 17
+
+Num of false positives = 1228
+
+Num of false negatives = 36
+
+Sensitivity/Recall = 0.321
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "Other" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 1232
+
+Num of false negatives = 3
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "PTNameInitial" category.
+
+
+==========================
+
+Num of true positives = 0
+
+Num of false positives = 1232
+
+Num of false negatives = 2
+
+Sensitivity/Recall = 0.0
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+Examining "Age" category.
+
+
+==========================
+
+Num of true positives = 1
+
+Num of false positives = 1232
+
+Num of false negatives = 3
+
+Sensitivity/Recall = 0.25
+
+PPV/Specificity = 0.922
+
+==========================
+
+
+(base) ipsayadav@Ipsas-MBP-2 python % 
